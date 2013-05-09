@@ -25,3 +25,7 @@ $db = $app->getDb();
 $db->prepare(
 	"INSERT INTO app_data VALUES (null, access_token, :access_token)"
 )->execute(array(':access_token' => $accessToken));
+
+echo "Returned value: ".$returnValue;
+echo "<br>";
+echo "Value to db: ".$accessToken;

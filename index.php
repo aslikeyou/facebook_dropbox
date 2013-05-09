@@ -53,7 +53,10 @@
 			<div class="nav-collapse collapse">
 				<ul class="nav">
 					<li class="active"><a href="#">Home</a></li>
-					<li><a href="#">Get Access Token</a></li>
+					<li><a href="/getAccessToken.php">Get Access Token</a></li>
+					<li><a href="/subscribeForUpdates.php">Subscribe for updates</a></li>
+					<li><a href="/enquireSubscription.php">Enquiring the Current Subscription</a></li>
+					<li><a href="/deleteSubscription.php">Deleting the Current Subscription</a></li>
 				</ul>
 			</div><!--/.nav-collapse -->
 		</div>

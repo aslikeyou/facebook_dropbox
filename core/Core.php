@@ -28,6 +28,8 @@ class Core
 	}
 
 	/**
+	 * @param string $key
+	 *
 	 * @return array
 	 */
 	public static function getConfig($key = '')
@@ -36,6 +38,12 @@ class Core
 			return self::$config[$key];
 
 		return self::$config;
+	}
+
+	public static function getAppId() {
+		if(!empty(self::$config) && isset(self::$config['fb']['appId']))
+			return self::$config['fb']['appId'];
+		return false;
 	}
 
 	/**

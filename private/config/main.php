@@ -1,6 +1,7 @@
 <?php
 
 return array(
+	'host' => $_SERVER['SERVER_NAME'],
 	'db' => array(
 		'connectString' => 'mysql:host=raccoon.mysql.ukraine.com.ua;dbname=raccoon_facebook',
 		'user'          => 'raccoon_facebook',
